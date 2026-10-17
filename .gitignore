@@ -1,0 +1,25 @@
+# Java and Maven
+**/target/
+**/build/
+*.class
+
+# Node and frontend build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.local
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+**/firebase-service-account.json
+
+# Logs and operating-system files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.DS_Store
+Thumbs.db
